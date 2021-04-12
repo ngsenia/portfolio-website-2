@@ -62,6 +62,7 @@ header h2 {
     width:100%;
     padding: 30px 0 30px 0;
     text-align: center;
+    
 }
 
 #portfolio h3 {
@@ -141,3 +142,24 @@ header h2 {
     color: #ffffff;
 }
 
+/* ----------- Screens smaller than 768px wide ----------- */
+@media (max-width: 800px) {
+
+#portfolio .half-width {
+    width:100%;
+    margin: 0 auto;
+    overflow: auto;
+    display: block;
+}
+
+#portfolio h4 {
+    text-align: center;
+    width: 100%;
+}
+
+#portfolio p {
+    text-align: center;
+    width: 100%;
+}
+
+}
