@@ -142,7 +142,7 @@ header h2 {
     color: #ffffff;
 }
 
-/* ----------- Screens smaller than 768px wide ----------- */
+/* ----------- Screens smaller than 800px wide ----------- */
 @media (max-width: 800px) {
 
 #portfolio .half-width {
